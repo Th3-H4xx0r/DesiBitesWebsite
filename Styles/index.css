@@ -66,3 +66,71 @@ body{
     margin-left: 18vw;
     margin-top: -5vh;
 }
+
+
+/* Section 2 Styling */
+.section-2-head{
+    margin-left: 3vw;
+    margin-top: 10vh;
+    font-weight: 600;
+}
+
+.specials-box{
+    width: 18vw;
+    height: 35vh;
+    border-radius: 10px;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    box-shadow: 0px 4px 42px 3px rgba(0, 0, 0, 0.25);
+}
+
+.specials-box-img{
+    width: 95%;
+    margin-top: 10%;
+}
+
+.specials-box-head{
+    margin-top: 5%;
+}
+
+.specials-box-subhead{
+    font-size: 15px;
+    width: 90%;
+}
+
+/* Section 3 Styling */
+
+.section-3{
+    margin-top: 20vh;
+}
+
+.section-3-head{
+    font-weight: 700;
+}
+
+.section-3-subhead{
+    width: 25vw;
+}
+
+.chip{
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px black solid;
+    width: fit-content;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+    transition: background-color 0.2s linear;
+}
+
+.chip:hover{
+    background-color: #F6CD63;
+    border: 1px #F6CD63 solid;
+}
+
+.chips-row{
+    max-width: 25vw;
+}
