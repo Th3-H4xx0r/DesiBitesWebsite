@@ -1,0 +1,68 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FFFCF6;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar-custom{
+    background-color: #FFFCF6;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+
+/* Section 1 Styling */
+
+.section-1{
+    margin-top: 30vh;
+    width: 100vw;
+}
+
+.section-1-left{
+    margin-left: 13vw;
+}
+
+.section-1-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section-1-subhead{
+    max-width: 80%;
+}
+
+.menu-btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 100px;
+    color: black;
+    background-color: #F6CD63;
+    font-weight: 600;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    transition: background-color 0.5s;
+}
+
+.menu-btn:hover{
+    background-color: #ffdf90;
+}
+
+.order-online-btn{
+    margin-top: 1.2vh;
+    margin-left: 1vw;
+    color: black;
+    font-weight: 500;
+}
+
+.section-1-img{
+    max-width: 25vw;
+    margin-left: 18vw;
+    margin-top: -5vh;
+}
