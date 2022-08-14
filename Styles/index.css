@@ -70,7 +70,7 @@ body{
 
 /* Section 2 Styling */
 .section-2-head{
-    margin-left: 3vw;
+    margin-left: 5vw;
     margin-top: 10vh;
     font-weight: 600;
 }
@@ -106,7 +106,7 @@ body{
 }
 
 .section-3-head{
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .section-3-subhead{
@@ -134,3 +134,51 @@ body{
 .chips-row{
     max-width: 25vw;
 }
+
+.section-4{
+    margin-top: 10vh;
+}
+
+.section-4-head{
+    font-weight: 600;
+}
+
+/* Gallery Code */
+
+.gallery{}
+
+.img-gallery{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 10px;
+    margin-left: 1vw;
+}
+
+
+/* Section 5 */
+.section-5{
+    margin-top: 10vh;
+}
+
+.section-5-head{
+    font-weight: 600;
+}
+
+.icon-location{
+    font-size: 25px;
+}
+
+.phone-text{
+    margin-left: 1vw;
+}
+
+/* Footer */
+
+footer{
+    background-color: #F6CD63;
+    width: 100vw;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 5vh;
+}
+
