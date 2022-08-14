@@ -1,0 +1,96 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FFFCF6;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar-custom{
+    background-color: #FFFCF6;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+/* Navbar Stylings */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .nav-contact{
+        display: none;
+    }
+
+    .nav-contact-mobile{
+        display: block;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .nav-contact{
+        display: block;
+    }
+
+    .nav-contact-mobile{
+        display: none;
+    }
+}
+
+
+/* Main Styling */
+
+.main-title{
+    margin-top: 5vh;
+    font-weight: 700;
+}
+
+.order-online-btn{
+    color: black;
+}
+
+.order-online-btn:hover{
+    color: #F6CD63;
+}
+
+.chip{
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px black solid;
+    width: fit-content;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+    transition: background-color 0.2s linear;
+}
+
+.chip:hover{
+    background-color: #F6CD63;
+    border: 1px #F6CD63 solid;
+    cursor: pointer;
+}
+
+.chip-active{
+    background-color: #F6CD63;
+    border: 1px #F6CD63 solid;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #F6CD63;
+    width: 100vw;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 5vh;
+}
+

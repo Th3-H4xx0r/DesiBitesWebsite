@@ -1,0 +1,205 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FFFCF6;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar-custom{
+    background-color: #FFFCF6;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+/* Navbar Stylings */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .nav-contact{
+        display: none;
+    }
+
+    .nav-contact-mobile{
+        display: block;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .nav-contact{
+        display: block;
+    }
+
+    .nav-contact-mobile{
+        display: none;
+    }
+}
+
+
+/* Main Styling */
+
+.main-title{
+    font-weight: 700;
+    margin-top: 10vh;
+}
+
+.main-subhead{
+    font-size: 20px;
+}
+
+.about-img{
+    width: 20vw;
+}
+
+.section-right{
+    margin-left: 5vw;
+}
+
+.about-head{
+
+}
+
+.about-subhead{
+    max-width: 30vw;
+    font-size: 20px;
+}
+
+.chip{
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px black solid;
+    width: fit-content;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+    transition: background-color 0.2s linear;
+}
+
+.menu-btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 100px;
+    color: black;
+    background-color: #F6CD63;
+    font-weight: 600;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    transition: background-color 0.5s;
+}
+
+.menu-btn:hover{
+    background-color: #ffdf90;
+}
+
+.order-online-btn{
+    margin-top: 1.2vh;
+    margin-left: 1vw;
+    color: black;
+    font-weight: 500;
+}
+
+.chips-row{
+    max-width: 25vw;
+}
+
+
+/* Main Section Moblile Styling */
+
+/* MOBILE */
+@media only screen and (max-width: 999px) {
+
+    .main{
+        display: none;
+    }
+
+    .main-mobile{
+        display: block;
+    }
+
+    .main-title{
+        font-weight: 700;
+        margin-top: 10vh;
+    }
+    
+    .main-subhead{
+        font-size: 20px;
+    }
+    
+    .about-img{
+        width: 80vw;
+    }
+
+    .about-subhead{
+        max-width: 80vw;
+        font-size: 20px;
+    }
+
+    .chips-row{
+        max-width: 80vw;
+    }
+
+    .menu-btn{
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+        margin-right: 2vw;
+    }
+    
+
+}
+
+/* TABLET  */
+
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+    .main-subhead{
+        font-size: 20px;
+    }
+    
+    .about-img{
+        width: 30vw;
+    }
+
+    .about-subhead{
+        max-width: 40vw;
+        font-size: 20px;
+    }
+
+    .chips-row{
+        max-width: 40vw;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1000px) {
+
+    .main{
+        display: block;
+    }
+
+    .main-mobile{
+        display: none;
+    }
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #F6CD63;
+    width: 100vw;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 5vh;
+}
+
