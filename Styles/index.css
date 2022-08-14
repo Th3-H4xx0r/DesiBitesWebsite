@@ -159,13 +159,13 @@ body{
 
 .specials-box{
     width: 18vw;
-    height: 35vh;
+    min-height: 38vh;
+    height: fit-content;
     border-radius: 10px;
     margin-right: 5vw;
     margin-bottom: 5vh;
     margin-top: 5vh;
     box-shadow: 0px 4px 42px 3px rgba(0, 0, 0, 0.25);
-    padding-bottom: 2vh;
 }
 
 .specials-box-img{
