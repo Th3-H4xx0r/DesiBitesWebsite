@@ -16,6 +16,33 @@ body{
     font-weight: 600;
 }
 
+/* Navbar Stylings */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .nav-contact{
+        display: none;
+    }
+
+    .nav-contact-mobile{
+        display: block;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .nav-contact{
+        display: block;
+    }
+
+    .nav-contact-mobile{
+        display: none;
+    }
+}
+
 
 /* Section 1 Styling */
 
@@ -67,6 +94,61 @@ body{
     margin-top: -5vh;
 }
 
+/* Section 1 MOBILE Styling */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .section-1{
+        display: none;
+    }
+
+    .section-1-mobile{
+        display: block;
+    }
+
+    .section-1-img{
+        margin-top: 10vh;
+        max-width: 80vw;
+        width: 80vw;
+        margin-left: -2vw;
+
+    }
+
+    .section-1-title{
+        font-weight: 700;
+        font-size: 45px;
+        margin-left: 10vw;
+    }
+    
+    .section-1-subhead{
+        max-width: 70%;
+        margin-left: 10vw;
+    }
+
+    .mobile-section-1{
+        margin-left: 10vw;
+    }
+
+    .menu-btn{
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+        margin-right: 2vw;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .section-1{
+        display: block;
+    }
+
+    .section-1-mobile{
+        display: none;
+    }
+}
+
 
 /* Section 2 Styling */
 .section-2-head{
@@ -98,6 +180,50 @@ body{
     font-size: 15px;
     width: 90%;
 }
+
+/* Section 2 MOBILE Styling */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .section-2{
+        display: none;
+    }
+
+    .section-2-mobile{
+        display: block;
+    }
+
+    .specials-box{
+        width: 80vw;
+        min-height: 35vh;
+        height: fit-content;
+        border-radius: 10px;
+        margin-bottom: 0vh;
+        margin-right: 0px;
+        margin-top: 2vh;
+        box-shadow: 0px 4px 42px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .section-2-head{
+        margin-top: 10vh;
+        font-weight: 600;
+    }
+   
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .section-2{
+        display: block;
+    }
+
+    .section-2-mobile{
+        display: none;
+    }
+}
+
 
 /* Section 3 Styling */
 
@@ -135,17 +261,68 @@ body{
     max-width: 25vw;
 }
 
+/* Section 3 MOBILE Styling */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .section-3{
+        display: none;
+    }
+
+    .section-3-mobile{
+        display: block;
+    }
+
+    .section-3-img{
+        width: 100vw;
+        margin-left: -10vw;
+        margin-top: 20vh;
+    }
+
+    .section-3-subhead{
+        width: 75vw;
+        margin-left: 10vw;
+    }
+
+    .section-3-head{
+        margin-left: 10vw;
+        margin-top: 5vh;
+    }
+
+    .chips-row{
+        max-width: 90vw;
+        margin-left: 10vw;
+
+    }
+   
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .section-3{
+        display: block;
+    }
+
+    .section-3-mobile{
+        display: none;
+    }
+}
+
+
+/* Section 4 Styling */
+
 .section-4{
-    margin-top: 10vh;
+    margin-top: 30vh;
 }
 
 .section-4-head{
     font-weight: 600;
 }
 
-/* Gallery Code */
 
-.gallery{}
+/* Gallery Code */
 
 .img-gallery{
     height: 20vh;
@@ -154,10 +331,46 @@ body{
     margin-left: 1vw;
 }
 
+/* Section 4 MOBILE Styling */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .section-4{
+        display: none;
+    }
+
+    .section-4-mobile{
+        display: block;
+        margin-top: 15vh;
+    }
+
+    .img-gallery{
+        height: 30vh;
+        width: 90vw;
+        object-fit: cover;
+        margin-top: 2vh;
+        margin-left: 5vw;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .section-4{
+        display: block;
+    }
+
+    .section-4-mobile{
+        display: none;
+    }
+}
+
 
 /* Section 5 */
 .section-5{
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 .section-5-head{
@@ -171,6 +384,35 @@ body{
 .phone-text{
     margin-left: 1vw;
 }
+
+/* Section 5 MOBILE Styling */
+
+/* MOBILE */
+@media only screen and (max-width: 799px) {
+
+    .section-5{
+        display: none;
+    }
+
+    .section-5-mobile{
+        display: block;
+        margin-top: 15vh;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 800px) {
+
+    .section-5{
+        display: block;
+    }
+
+    .section-5-mobile{
+        display: none;
+    }
+}
+
 
 /* Footer */
 
