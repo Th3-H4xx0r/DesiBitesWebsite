@@ -52,16 +52,17 @@ body{
 }
 
 .section-1-left{
-    margin-left: 15vw;
+    margin-left: 0vw;
 }
 
 .section-1-title{
     font-weight: 700;
     font-size: 50px;
+    width: 30vw;
 }
 
 .section-1-subhead{
-    max-width: 80%;
+    max-width: 30vw;
 }
 
 .menu-btn{
@@ -90,7 +91,7 @@ body{
 
 .section-1-img{
     max-width: 25vw;
-    margin-left: 18vw;
+    margin-left: 15vw;
     margin-top: -5vh;
 }
 
@@ -119,6 +120,7 @@ body{
         font-weight: 700;
         font-size: 45px;
         margin-left: 10vw;
+        width: 85vw;
     }
     
     .section-1-subhead{
@@ -180,6 +182,10 @@ body{
 .specials-box-subhead{
     font-size: 15px;
     width: 90%;
+}
+
+.section-2{
+    margin-top: 20vh;
 }
 
 /* Section 2 MOBILE Styling */
@@ -326,8 +332,8 @@ body{
 /* Gallery Code */
 
 .img-gallery{
-    height: 20vh;
-    width: 10vw;
+    height: 25vh;
+    width: 12vw;
     border-radius: 10px;
     margin-left: 1vw;
 }
