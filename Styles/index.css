@@ -390,7 +390,6 @@ body{
 
 .phone-text{
     margin-left: 1vw;
-    width: 100vw;
 }
 
 /* Section 5 MOBILE Styling */
@@ -405,6 +404,11 @@ body{
     .section-5-mobile{
         display: block;
         margin-top: 15vh;
+    }
+
+    .phone-text{
+        margin-left: 1vw;
+        width: 100vw;
     }
 
 }
