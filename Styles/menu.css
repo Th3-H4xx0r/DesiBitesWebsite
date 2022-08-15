@@ -83,6 +83,12 @@ body{
     border: 1px #F6CD63 solid;
 }
 
+.table-menu{
+    width: 60vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
 
 /* Footer */
 
@@ -92,5 +98,7 @@ footer{
     padding: 10px;
     padding-top: 20px;
     margin-top: 5vh;
+    position: absolute;
+    bottom: 0;
 }
 

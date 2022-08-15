@@ -63,9 +63,9 @@
                     </li>
                 </div>
 
-                 <!-- Nav Contact Desktop & Mobile END -->
+                <!-- Nav Contact Desktop & Mobile END -->
 
-              
+
 
             </ul>
         </div>
@@ -85,25 +85,235 @@
 
         <div class="d-flex justify-content-center">
             <div class="row">
-                <div class="chip chip-active">Goat/Mutton Dishes</div>
-                <div class="chip">Vegetable Dishes</div>
-                <div class="chip">Appetizers</div>
-                <div class="chip">Chicken Dishes</div>
-                <div class="chip">Deserts</div>
-                <div class="chip">Desi Chinese</div>
+                <div class="chip chip-active" onclick="showMuttonDishes()" id="mutton-btn">Goat/Mutton Dishes</div>
+                <div class="chip" onclick="showVegetableDishes()" id="vegetable-btn">Vegetable Dishes</div>
+                <div class="chip" onclick="showAppetizers()" id="appetizers-btn">Appetizers</div>
+                <div class="chip" onclick="showChickenDishes()">Chicken Dishes</div>
+                <div class="chip" onclick="showDeserts()">Deserts</div>
+                <div class="chip" onclick="showDesiChinese()">Desi Chinese</div>
 
             </div>
         </div>
 
-        <div class="d-flex justify-content-center">
-            
-        </div>
+        
+        <section id="mutton">
+            <div class="d-flex justify-content-center">
+                <table class="table table-bordered table-menu" >
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Quarter Tray</th>
+                            <th scope="col">Half-Tray</th>
+                            <th scope="col">Full Tray</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Byrani/Palao</th>
+                            <td>$40</td>
+                            <td>$75</td>
+                            <td>$140</td>
+                        </tr>
+    
+                        <tr>
+                            <th scope="row">Korma/Curry</th>
+                            <td>$40</td>
+                            <td>$75</td>
+                            <td>$140</td>
+                        </tr>
+    
+                        <tr>
+                            <th scope="row">Aloo Gosht</th>
+                            <td>$40</td>
+                            <td>$75</td>
+                            <td>$140</td>
+                        </tr>
+    
+                        <tr>
+                            <th scope="row">Karahi Gosht</th>
+                            <td>$40</td>
+                            <td>$75</td>
+                            <td>$140</td>
+                        </tr>
+    
+                        <tr>
+                            <th scope="row">Achar Gosht</th>
+                            <td>$40</td>
+                            <td>$75</td>
+                            <td>$140</td>
+                        </tr>
+    
+                        <tr>
+                            <th scope="row">Palak Gosht</th>
+                            <td>$40</td>
+                            <td>$75</td>
+                            <td>$140</td>
+                        </tr>
+    
+                    </tbody>
+                </table>
+            </div>
+
+            </section>
+
+            <section style="display: none;" id="vegetableDishes">
+                <div class="d-flex justify-content-center">
+                    <table class="table table-bordered table-menu" >
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Quarter Tray</th>
+                                <th scope="col">Half-Tray</th>
+                                <th scope="col">Full Tray</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Palak Paneer</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Butter Paneer</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Mix Vegetables</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Dhaaba Style Daal</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Bhindi Masala</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Chana Masala</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Kadhri Pakora</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Veggie Pakora</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Chana Chat</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Dahi Bara</th>
+                                <td>$25</td>
+                                <td>$50</td>
+                                <td>$100</td>
+                            </tr>
+        
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+
+            <section id="appetizers" style="display: none;">
+                <div class="d-flex justify-content-center">
+                    <table class="table table-bordered table-menu" >
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Piece Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Veggie Pakoras</th>
+                                <td>$30</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Potato Samosas/Spring Roll</th>
+                                <td>$12</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Potato Samosas</th>
+                                <td>$12</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Chicken Samosas</th>
+                                <td>$2</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Chicken Drumsticks</th>
+                                <td>$20</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Tandoori Chicken</th>
+                                <td>$45</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Mix Channa Chaat</th>
+                                <td>$35</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Dahi Baray</th>
+                                <td>$35</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Chinese Chicken Pakoras</th>
+                                <td>$40</td>
+                            </tr>
+        
+                        </tbody>
+                    </table>
+                </div>
+    
+                </section>
+
+
+    </section>
 
     </section>
 
     <!-- Main Section END-->
 
-    
+
     <!-- Main Section MOBILE-->
 
     <section class="main-mobile">
@@ -111,7 +321,6 @@
 
     </section>
     <!-- Main Section MOBILE END-->
-
 
 
     <!-- FOOTER -->
@@ -124,14 +333,53 @@
 
     <!-- FOOTER END -->
 
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+
+        function showMuttonDishes(){
+            document.getElementById('mutton').style.display = 'block'
+            document.getElementById('vegetableDishes').style.display = 'none'
+            document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('vegetable-btn').className = "chip"
+            document.getElementById('mutton-btn').className = "chip chip-active"
+            document.getElementById('appetizers-btn').className = "chip"
+        }
+
+        function showVegetableDishes() {
+            document.getElementById('mutton').style.display = 'none'
+            document.getElementById('vegetableDishes').style.display = 'block'
+            document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('vegetable-btn').className = "chip chip-active"
+            document.getElementById('mutton-btn').className = "chip"
+            document.getElementById('appetizers-btn').className = "chip"
+        }
+
+        function showAppetizers(){
+            document.getElementById('mutton').style.display = 'none'
+            document.getElementById('vegetableDishes').style.display = 'none'
+            document.getElementById('appetizers').style.display = 'block'
+            document.getElementById('vegetable-btn').className = "chip"
+            document.getElementById('mutton-btn').className = "chip"
+            document.getElementById('appetizers-btn').className = "chip chip-active"
+        }
+
+        function showChickenDishes(){
+
+        }
+
+        function showDeserts(){
+
+        }
+
+        function showDesiChinese(){
+
+        }
+    </script>
 </body>
 
 </html>
