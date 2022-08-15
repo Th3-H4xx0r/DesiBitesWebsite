@@ -29,6 +29,10 @@ body{
         display: block;
     }
 
+    body{
+        position: relative;
+    }
+
 }
 
 /* DESKTOP */
@@ -86,7 +90,7 @@ body{
 .table-menu{
     width: 60vw;
     margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
 }
 
 

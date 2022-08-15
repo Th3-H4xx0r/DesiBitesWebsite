@@ -84,13 +84,13 @@
         </center>
 
         <div class="d-flex justify-content-center">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="chip chip-active" onclick="showMuttonDishes()" id="mutton-btn">Goat/Mutton Dishes</div>
                 <div class="chip" onclick="showVegetableDishes()" id="vegetable-btn">Vegetable Dishes</div>
                 <div class="chip" onclick="showAppetizers()" id="appetizers-btn">Appetizers</div>
-                <div class="chip" onclick="showChickenDishes()">Chicken Dishes</div>
-                <div class="chip" onclick="showDeserts()">Deserts</div>
-                <div class="chip" onclick="showDesiChinese()">Desi Chinese</div>
+                <div class="chip" onclick="showChickenDishes()" id="chicken-dishes-btn">Chicken Dishes</div>
+                <div class="chip" onclick="showDeserts()" id="deserts-btn">Deserts</div>
+                <div class="chip" onclick="showDesiChinese()" id="desi-chinese-btn">Desi Chinese</div>
 
             </div>
         </div>
@@ -306,6 +306,209 @@
     
                 </section>
 
+                <section style="display: none;" id="chicken-dishes">
+                    <div class="d-flex justify-content-center">
+                        <table class="table table-bordered table-menu" >
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Quarter Tray</th>
+                                    <th scope="col">Half-Tray</th>
+                                    <th scope="col">Full Tray</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Chicken Jalfrezi</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row">Achar Chicken</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row">Haleem</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Butter Chicken</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">CBiryani/Pulao</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Mundi Rice</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Korma/Curry</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Chicken</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+            
+    
+                            </tbody>
+                        </table>
+                    </div>
+    
+                </section>
+
+                <section style="display: none;" id="deserts">
+                    <div class="d-flex justify-content-center">
+                        <table class="table table-bordered table-menu" >
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Quarter Tray</th>
+                                    <th scope="col">Half-Tray</th>
+                                    <th scope="col">Full Tray</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Kheer</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row">Ferni</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row">Suji Ka Halwa</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Kajar Ka Halwa</th>
+                                    <td>$35</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Falooda</th>
+                                    <td>$35</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Sahi Tukra</th>
+                                    <td>$35</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Fruit Truffle</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>            
+    
+                            </tbody>
+                        </table>
+                    </div>
+    
+                </section>
+
+                
+                <section style="display: none;" id="desi-chinese">
+                    <div class="d-flex justify-content-center">
+                        <table class="table table-bordered table-menu" >
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Quarter Tray</th>
+                                    <th scope="col">Half-Tray</th>
+                                    <th scope="col">Full Tray</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Chicken Kang Poa</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row">Chicken Chilli</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row">Chicken Sweet and Sour</th>
+                                    <td>$30</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Haka Style Chicken</th>
+                                    <td>$35</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Fruit Truffle</th>
+                                    <td>$35</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">Chicken Chinese Pakora</th>
+                                    <td>$35</td>
+                                    <td>$60</td>
+                                    <td>$110</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+    
+                </section>
+
 
     </section>
 
@@ -345,39 +548,92 @@
             document.getElementById('mutton').style.display = 'block'
             document.getElementById('vegetableDishes').style.display = 'none'
             document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('chicken-dishes').style.display = 'none'
+            document.getElementById('deserts').style.display = 'none'
+            document.getElementById('desi-chinese').style.display = 'none'
             document.getElementById('vegetable-btn').className = "chip"
             document.getElementById('mutton-btn').className = "chip chip-active"
             document.getElementById('appetizers-btn').className = "chip"
+            document.getElementById('chicken-dishes-btn').className = "chip"
+            document.getElementById('deserts-btn').className = "chip"
+            document.getElementById('desi-chinese-btn').className = "chip"
         }
 
         function showVegetableDishes() {
             document.getElementById('mutton').style.display = 'none'
             document.getElementById('vegetableDishes').style.display = 'block'
             document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('chicken-dishes').style.display = 'none'
+            document.getElementById('deserts').style.display = 'none'
+            document.getElementById('desi-chinese').style.display = 'none'
             document.getElementById('vegetable-btn').className = "chip chip-active"
             document.getElementById('mutton-btn').className = "chip"
             document.getElementById('appetizers-btn').className = "chip"
+            document.getElementById('chicken-dishes-btn').className = "chip"
+            document.getElementById('deserts-btn').className = "chip"
+            document.getElementById('desi-chinese-btn').className = "chip"
+
         }
 
         function showAppetizers(){
             document.getElementById('mutton').style.display = 'none'
             document.getElementById('vegetableDishes').style.display = 'none'
             document.getElementById('appetizers').style.display = 'block'
+            document.getElementById('chicken-dishes').style.display = 'none'
+            document.getElementById('deserts').style.display = 'none'
+            document.getElementById('desi-chinese').style.display = 'none'
             document.getElementById('vegetable-btn').className = "chip"
             document.getElementById('mutton-btn').className = "chip"
             document.getElementById('appetizers-btn').className = "chip chip-active"
+            document.getElementById('chicken-dishes-btn').className = "chip"
+            document.getElementById('deserts-btn').className = "chip"
+            document.getElementById('desi-chinese-btn').className = "chip"
+
         }
 
         function showChickenDishes(){
-
+            document.getElementById('mutton').style.display = 'none'
+            document.getElementById('vegetableDishes').style.display = 'none'
+            document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('chicken-dishes').style.display = 'block'
+            document.getElementById('deserts').style.display = 'none'
+            document.getElementById('desi-chinese').style.display = 'none'
+            document.getElementById('vegetable-btn').className = "chip"
+            document.getElementById('mutton-btn').className = "chip"
+            document.getElementById('appetizers-btn').className = "chip"
+            document.getElementById('chicken-dishes-btn').className = "chip chip-active"
+            document.getElementById('deserts-btn').className = "chip"
+            document.getElementById('desi-chinese-btn').className = "chip"
         }
 
         function showDeserts(){
-
+            document.getElementById('mutton').style.display = 'none'
+            document.getElementById('vegetableDishes').style.display = 'none'
+            document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('chicken-dishes').style.display = 'none'
+            document.getElementById('deserts').style.display = 'block'
+            document.getElementById('desi-chinese').style.display = 'none'
+            document.getElementById('vegetable-btn').className = "chip"
+            document.getElementById('mutton-btn').className = "chip"
+            document.getElementById('appetizers-btn').className = "chip"
+            document.getElementById('chicken-dishes-btn').className = "chip"
+            document.getElementById('deserts-btn').className = "chip chip-active"
+            document.getElementById('desi-chinese-btn').className = "chip"
         }
 
         function showDesiChinese(){
-
+            document.getElementById('mutton').style.display = 'none'
+            document.getElementById('vegetableDishes').style.display = 'none'
+            document.getElementById('appetizers').style.display = 'none'
+            document.getElementById('chicken-dishes').style.display = 'none'
+            document.getElementById('deserts').style.display = 'none'
+            document.getElementById('desi-chinese').style.display = 'block'
+            document.getElementById('vegetable-btn').className = "chip"
+            document.getElementById('mutton-btn').className = "chip"
+            document.getElementById('appetizers-btn').className = "chip"
+            document.getElementById('chicken-dishes-btn').className = "chip"
+            document.getElementById('deserts-btn').className = "chip"
+            document.getElementById('desi-chinese-btn').className = "chip chip-active"
         }
     </script>
 </body>
