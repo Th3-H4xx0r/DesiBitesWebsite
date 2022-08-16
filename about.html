@@ -63,9 +63,9 @@
                     </li>
                 </div>
 
-                 <!-- Nav Contact Desktop & Mobile END -->
+                <!-- Nav Contact Desktop & Mobile END -->
 
-              
+
 
             </ul>
         </div>
@@ -86,22 +86,56 @@
         </div>
 
         <div class="d-flex justify-content-center" style="margin-top: 10vh;">
-           <div class="row">
+            <div class="row">
                 <div>
-                    <img src="Assets/aboutImg.png" class="about-img"/>
+                    <img src="Assets/aboutImg.png" class="about-img" />
 
                     <div class="d-flex justify-content-center" style="margin-top: 10vh;">
                         <div class="row">
                             <button class="menu-btn" onclick='window.location = "menu.html"'>Menu</button>
-                            <a href="orderOnline.html" class="order-online-btn">Order Online Now</a>
+
+                            <!-- Order Online trigger modal  -->
+                            <a class="order-online-btn" data-toggle="modal" data-target="#modal1ID">
+                                Order Online Now
+                            </a>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal1ID" tabindex="-1" role="dialog"
+                                aria-labelledby="modalLabel1" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalLabel1">Online Orders</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            To place your order online, contact 510-427-6644 on WhatsApp with your order
+                                            details.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div class="section-right">
                     <h2 class="about-head">About Us</h2>
-                    <p class="about-subhead">Here at Desi bites our goal is to serve fresh, homemade, and healthy Pakistani foods. We accomplish this by handpicking the ingredients that are used in all of our dishes. Each ingredient goes through a strict process to see if its safe to eat and what this tactic does is that it enhances the flavor of each one of our dishes. All of our spices are processed and made in-house to ensure the freshness in each of our dishes. This combination leads to each one of our dishes to have high nutritive value, yet are still are mouth wateringly delicious meals.</p>
-                    
+                    <p class="about-subhead">Here at Desi bites our goal is to serve fresh, homemade, and healthy
+                        Pakistani foods. We accomplish this by handpicking the ingredients that are used in all of our
+                        dishes. Each ingredient goes through a strict process to see if its safe to eat and what this
+                        tactic does is that it enhances the flavor of each one of our dishes. All of our spices are
+                        processed and made in-house to ensure the freshness in each of our dishes. This combination
+                        leads to each one of our dishes to have high nutritive value, yet are still are mouth wateringly
+                        delicious meals.</p>
+
                     <div class="row chips-row">
                         <div class="chip">
                             Organic
@@ -122,13 +156,13 @@
                     </div>
 
                 </div>
-           </div>
+            </div>
         </div>
     </section>
 
     <!-- Main Section END-->
 
-    
+
     <!-- Main Section MOBILE-->
 
     <section class="main-mobile">
@@ -141,41 +175,75 @@
         </div>
 
         <center>
-            <img src="Assets/aboutImg.png" class="about-img"/>
+            <img src="Assets/aboutImg.png" class="about-img" />
         </center>
 
         <center>
             <div>
                 <h2 class="about-head">About Us</h2>
-                <p class="about-subhead">Here at Desi bites our goal is to serve fresh, homemade, and healthy Pakistani foods. We accomplish this by handpicking the ingredients that are used in all of our dishes. Each ingredient goes through a strict process to see if its safe to eat and what this tactic does is that it enhances the flavor of each one of our dishes. All of our spices are processed and made in-house to ensure the freshness in each of our dishes. This combination leads to each one of our dishes to have high nutritive value, yet are still are mouth wateringly delicious meals.</p>
-                
-                    <div class="row chips-row justify-content-center">
-                        <div class="chip">
-                            Organic
-                        </div>
-        
-                        <div class="chip">
-                            Authentic Cusine
-                        </div>
-        
-                        <div class="chip">
-                            Homemade
-                        </div>
-        
-                        <div class="chip">
-                            100% Safe Ingredients
-                        </div>
-        
+                <p class="about-subhead">Here at Desi bites our goal is to serve fresh, homemade, and healthy Pakistani
+                    foods. We accomplish this by handpicking the ingredients that are used in all of our dishes. Each
+                    ingredient goes through a strict process to see if its safe to eat and what this tactic does is that
+                    it enhances the flavor of each one of our dishes. All of our spices are processed and made in-house
+                    to ensure the freshness in each of our dishes. This combination leads to each one of our dishes to
+                    have high nutritive value, yet are still are mouth wateringly delicious meals.</p>
+
+                <div class="row chips-row justify-content-center">
+                    <div class="chip">
+                        Organic
                     </div>
-    
+
+                    <div class="chip">
+                        Authentic Cusine
+                    </div>
+
+                    <div class="chip">
+                        Homemade
+                    </div>
+
+                    <div class="chip">
+                        100% Safe Ingredients
+                    </div>
+
+                </div>
+
             </div>
-          
+
         </center>
 
         <div class="d-flex justify-content-center" style="margin-top: 5vh;">
             <div class="row">
-                <button class="menu-btn">Menu</button>
-                <a href="orderOnline.html" class="order-online-btn">Order Online Now</a>
+                <button class="menu-btn" onclick='window.location = "menu.html"'>Menu</button>
+                
+                 <!-- Order Online trigger modal  -->
+                 <a class="order-online-btn" data-toggle="modal" data-target="#modal2ID">
+                    Order Online Now
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal2ID" tabindex="-1" role="dialog"
+                    aria-labelledby="modalLabel2" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalLabel2">Online Orders</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                To place your order online, contact 510-427-6644 on WhatsApp with your order
+                                details.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning"
+                                    data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 

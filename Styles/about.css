@@ -113,6 +113,11 @@ body{
     font-weight: 500;
 }
 
+.order-online-btn:hover{
+    color: #F6CD63;
+    cursor: pointer;
+}
+
 .chips-row{
     max-width: 25vw;
 }

@@ -66,6 +66,7 @@ body{
 
 .order-online-btn:hover{
     color: #F6CD63;
+    cursor: pointer;
 }
 
 .chip{

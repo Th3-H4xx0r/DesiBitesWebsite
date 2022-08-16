@@ -30,7 +30,7 @@
 
     <nav class="navbar justify-content-between navbar-light bg-transparent navbar-expand-lg navbar-custom">
         <a class="navbar-brand" href="index.html">
-            <img src="Assets/desi_bites_logo.png" class="nav-img"/>
+            <img src="Assets/desi_bites_logo.png" class="nav-img" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +63,7 @@
                     </li>
                 </div>
 
-                 <!-- Nav Contact Desktop & Mobile END -->
+                <!-- Nav Contact Desktop & Mobile END -->
 
             </ul>
         </div>
@@ -85,12 +85,40 @@
 
                     <div class="row">
                         <button class="menu-btn" onclick='window.location = "menu.html"'>Menu</button>
-                        <a href="orderOnline.html" class="order-online-btn">Order Online Now</a>
+
+                        <!-- Order Online trigger modal  -->
+                        <a class="order-online-btn" data-toggle="modal" data-target="#modal1ID">
+                            Order Online Now
+                        </a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal1ID" tabindex="-1" role="dialog"
+                            aria-labelledby="modal1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modal1">Online Orders</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        To place your order online, contact 510-427-6644 on WhatsApp with your order
+                                        details.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                </div>
+
+                <img src="Assets/cooking1.png" class="section-1-img" />
             </div>
-            
-            <img src="Assets/cooking1.png" class="section-1-img" />
-        </div>
     </section>
 
     <!-- Section 1 END-->
@@ -110,8 +138,35 @@
         </p>
 
         <div class="row mobile-section-1">
-            <button class="menu-btn">Menu</button>
-            <a href="orderOnline.html" class="order-online-btn">Order Online Now</a>
+            <button class="menu-btn" onclick='window.location = "menu.html"'>Menu</button>
+
+            <!-- Order Online trigger modal  -->
+            <a class="order-online-btn" href="#" data-toggle="modal" data-target="#modal2ID">
+                Order Online Now
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modal2ID" tabindex="-1" role="dialog" aria-labelledby="modal2"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal2">Online Orders</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            To place your order online, contact 510-427-6644 on WhatsApp with your order
+                            details.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </section>
@@ -141,7 +196,8 @@
                         <center>
                             <img src="Assets/Biryani-1.png" class="specials-box-img" />
                             <h3 class="specials-box-head">Biryani</h3>
-                            <p class="specials-box-subhead">Biryani is a celebration of all that is great about Indian food!</p>
+                            <p class="specials-box-subhead">Biryani is a celebration of all that is great about Indian
+                                food!</p>
                         </center>
 
                     </div>
@@ -152,7 +208,8 @@
                         <center>
                             <img src="Assets/korma.png" class="specials-box-img" />
                             <h3 class="specials-box-head">Chicken Korma</h3>
-                            <p class="specials-box-subhead">A traditional Indian dish of light, flavorful and buttery!</p>
+                            <p class="specials-box-subhead">A traditional Indian dish of light, flavorful and buttery!
+                            </p>
                         </center>
 
                     </div>
@@ -163,7 +220,8 @@
                         <center>
                             <img src="Assets/tikka.png" class="specials-box-img" />
                             <h3 class="specials-box-head">Chicken Tikka Masala</h3>
-                            <p class="specials-box-subhead">A popular curried dish made with boneless chicken, ground spices, onions, tomatoes, cream and herbs</p>
+                            <p class="specials-box-subhead">A popular curried dish made with boneless chicken, ground
+                                spices, onions, tomatoes, cream and herbs</p>
                         </center>
 
                     </div>
@@ -199,7 +257,8 @@
                     <center>
                         <img src="Assets/Biryani-1.png" class="specials-box-img" />
                         <h3 class="specials-box-head">Byrani</h3>
-                        <p class="specials-box-subhead">Biryani is a celebration of all that is great about Indian food!</p>
+                        <p class="specials-box-subhead">Biryani is a celebration of all that is great about Indian food!
+                        </p>
                     </center>
 
                 </div>
@@ -218,7 +277,8 @@
                     <center>
                         <img src="Assets/tikka.png" class="specials-box-img" />
                         <h3 class="specials-box-head">Chicken Tikka Masala</h3>
-                        <p class="specials-box-subhead">A popular curried dish made with boneless chicken, ground spices, onions, tomatoes, cream and herbs</p>
+                        <p class="specials-box-subhead">A popular curried dish made with boneless chicken, ground
+                            spices, onions, tomatoes, cream and herbs</p>
                     </center>
 
                 </div>
@@ -244,8 +304,10 @@
 
                 <div class="col">
                     <h1 class="section-3-head">It’s not just food,<br>it’s an experience.</h1>
-                    <p class="section-3-subhead">We strive to serve fresh, homemade, and healthy Pakistani foods. We use all healthy 
-                        ingredients and safely inspect each to ensure the qualit of our foods. Try our dishes for yourself today, 
+                    <p class="section-3-subhead">We strive to serve fresh, homemade, and healthy Pakistani foods. We use
+                        all healthy
+                        ingredients and safely inspect each to ensure the qualit of our foods. Try our dishes for
+                        yourself today,
                         by placing an order online to taste our autenthic flavors.</p>
 
                     <!-- Chips -->
@@ -293,8 +355,8 @@
         <img src="Assets/spices.png" class="section-3-img" />
 
         <h1 class="section-3-head">It’s not just food,<br>it’s an experience.</h1>
-        <p class="section-3-subhead">We strive to serve fresh, homemade, and healthy Pakistani foods. We use all healthy 
-            ingredients and safely inspect each to ensure the qualit of our foods. Try our dishes for yourself today, 
+        <p class="section-3-subhead">We strive to serve fresh, homemade, and healthy Pakistani foods. We use all healthy
+            ingredients and safely inspect each to ensure the qualit of our foods. Try our dishes for yourself today,
             by placing an order online to taste our autenthic flavors.</p>
 
         <!-- Chips -->
@@ -389,7 +451,8 @@
 
         <div class="d-flex justify-content-center">
             <div class="row">
-                <p class="location-text"><i class="fas fa-map-marker-alt icon-location"></i> 379 W Cupertino Avenue, Mountain House,
+                <p class="location-text"><i class="fas fa-map-marker-alt icon-location"></i> 379 W Cupertino Avenue,
+                    Mountain House,
                     CA, 95391</p>
 
                 <p class="phone-text"><i class="fas fa-phone-alt icon-location"></i> 510-427-6644</p>
@@ -423,7 +486,8 @@
         </center>
 
         <center>
-            <p class="phone-text"><i class="fas fa-map-marker-alt icon-location"></i> 379 W Cupertino Avenue, Mountain House,
+            <p class="phone-text"><i class="fas fa-map-marker-alt icon-location"></i> 379 W Cupertino Avenue, Mountain
+                House,
                 CA, 95391</p>
         </center>
 
@@ -450,10 +514,38 @@
     <div class="d-flex justify-content-center" style="margin-top: 10vh;">
         <div class="row">
             <button class="menu-btn" onclick='window.location = "menu.html"'>Menu</button>
-            <a href="orderOnline.html" class="order-online-btn">Order Online Now</a>
+
+
+            <!-- Order Online trigger modal  -->
+            <a class="order-online-btn" data-toggle="modal" data-target="#modal3ID">
+                Order Online Now
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modal3ID" tabindex="-1" role="dialog" aria-labelledby="modal3"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal3">Online Orders</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            To place your order online, contact 510-427-6644 on WhatsApp with your order details.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
-    
+
 
 
     <!-- FOOTER -->
