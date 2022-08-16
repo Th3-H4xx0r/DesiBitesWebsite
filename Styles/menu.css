@@ -16,6 +16,10 @@ body{
     font-weight: 600;
 }
 
+.nav-img{
+    width: 80%;
+}
+
 /* Navbar Stylings */
 
 /* MOBILE */
@@ -56,7 +60,8 @@ body{
 }
 
 .order-online-btn{
-    color: black;
+    color: #f1b316;
+    font-weight: 600;
 }
 
 .order-online-btn:hover{
@@ -91,6 +96,8 @@ body{
     width: 60vw;
     margin-top: 5vh;
     margin-bottom: 15vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 
