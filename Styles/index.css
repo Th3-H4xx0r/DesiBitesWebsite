@@ -171,12 +171,14 @@ body{
 }
 
 .specials-box-img{
-    width: 95%;
+    width: 80%;
+    max-height: 19vh;
     margin-top: 10%;
 }
 
 .specials-box-head{
     margin-top: 5%;
+    font-size: 23px;
 }
 
 .specials-box-subhead{
