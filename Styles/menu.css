@@ -96,13 +96,22 @@ body{
 
 /* Footer */
 
-footer{
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
     background-color: #F6CD63;
     width: 100vw;
     padding: 10px;
     padding-top: 20px;
     margin-top: 5vh;
     position: absolute;
-    bottom: 0;
-}
+    bottom: 0;            /* Footer height */
+  }
 
